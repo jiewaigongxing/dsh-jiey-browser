@@ -7,10 +7,11 @@ DeepSeek Harness 插件：通过 MCP 把 **jiey 浏览器** 交给 Agent 当「�
 ## 安装
 
 ```sh
-# npm 公开包
+# npm（预构建，推荐）
 dsh plugin --profile web add dsh-jiey-browser
-# 或
-npm install dsh-jiey-browser
+
+# GitHub 源码
+dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
 ```
 
 源码：https://github.com/jiewaigongxing/dsh-jiey-browser  
