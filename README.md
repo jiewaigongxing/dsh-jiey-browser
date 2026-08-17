@@ -58,7 +58,7 @@ In the profile `cordis.patch.yml` (or DSH settings UI):
     serverUrl: ""              # empty = auto-discover
     scopeId: dsh-jiey-browser  # tab isolation header
     allowCookies: false        # DEFAULT: do not reuse login / user tabs
-    downloadUrl: https://www.gongxingglobal.com/
+    downloadUrl: https://www.gongxingglobal.com/browser
     maxSnapshotChars: 40000
 ```
 

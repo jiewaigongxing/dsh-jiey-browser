@@ -4,9 +4,9 @@ import { readFile } from 'node:fs/promises'
 import { homedir } from 'node:os'
 import { join } from 'node:path'
 
-export const DEFAULT_DOWNLOAD_URL = 'https://www.gongxingglobal.com/'
+export const DEFAULT_DOWNLOAD_URL = 'https://www.gongxingglobal.com/browser'
 export const DEFAULT_DOCS_URL =
-  'https://docs.browser.gongxingglobal.com/features/use-with-claude-code'
+  'https://docs.browser.gongxingglobal.com/'
 
 /** Common MCP ports used by prod / packaged / test / dev Jiey builds. */
 const CANDIDATE_PORTS = [9200, 9100, 9110, 9105] as const
