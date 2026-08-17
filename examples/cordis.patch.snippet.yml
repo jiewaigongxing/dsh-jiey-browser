@@ -1,0 +1,8 @@
+# Drop into your profile cordis.patch.yml (or merge under the plugin id).
+- id: jiey-browser
+  config:
+    serverUrl: ""
+    scopeId: dsh-jiey-browser
+    allowCookies: false
+    downloadUrl: https://www.gongxingglobal.com/
+    maxSnapshotChars: 40000

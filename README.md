@@ -1,5 +1,8 @@
 # dsh-jiey-browser
 
+[![npm](https://img.shields.io/npm/v/dsh-jiey-browser.svg)](https://www.npmjs.com/package/dsh-jiey-browser)
+[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin)
+
 DeepSeek Harness plugin that gives the agent **real Jiey Browser** tools over MCP.
 
 > Let DeepSeek Harness go online — one plugin, powered by Jiey.
@@ -20,10 +23,11 @@ DSH is in developer preview; this plugin targets the Cordis / `tools` + `systemP
 Requires Node.js `^22.19 || >=24` and a DSH profile.
 
 ```sh
-# from npm (public)
+# npm (prebuilt; recommended)
 dsh plugin --profile web add dsh-jiey-browser
-# or
-npm install dsh-jiey-browser
+
+# GitHub source
+dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
 ```
 
 From a local checkout after `npm run build`:
