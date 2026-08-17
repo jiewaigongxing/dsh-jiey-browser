@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 /**
+ * Local smoke without DeepSeek Harness.
+ * Requires Jiey Browser MCP (default http://127.0.0.1:9100).
+ * Override with JIEY_URL or BROWSEROS_URL.
+ */
+/**
  * Smoke test against a running Jiey MCP server (no DSH required).
  * Exit 0 on success; exit 2 if Jiey is offline (soft skip for CI without browser).
  */
