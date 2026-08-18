@@ -12,7 +12,9 @@ dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
 
 ## 前提
 
-1. Jiey Browser を起動し、MCP（既定 `http://127.0.0.1:9100`）を有効にする
+1. Jiey Browser をインストールして起動し、MCP（既定 `http://127.0.0.1:9100`）を有効にする
+   - ダウンロード: https://www.gongxingglobal.com/browser
+   - macOS Intel (x64) DMG: https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg
 2. ヘルスチェック: `GET /system/health` が `{ "status": "ok" }` を返すこと
 3. `allowCookies` の既定は `false`（既存ログインセッションを再利用しない）
 

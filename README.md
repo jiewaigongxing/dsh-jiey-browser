@@ -1,8 +1,5 @@
 # dsh-jiey-browser
 
-[![npm](https://img.shields.io/npm/v/dsh-jiey-browser.svg)](https://www.npmjs.com/package/dsh-jiey-browser)
-[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin)
-
 DeepSeek Harness plugin that gives the agent **real Jiey Browser** tools over MCP.
 
 > Let DeepSeek Harness go online — one plugin, powered by Jiey.
@@ -23,11 +20,10 @@ DSH is in developer preview; this plugin targets the Cordis / `tools` + `systemP
 Requires Node.js `^22.19 || >=24` and a DSH profile.
 
 ```sh
-# npm (prebuilt; recommended)
+# from npm (public)
 dsh plugin --profile web add dsh-jiey-browser
-
-# GitHub source
-dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
+# or
+npm install dsh-jiey-browser
 ```
 
 From a local checkout after `npm run build`:
@@ -43,6 +39,9 @@ Topics: `dsh-plugin`, `deepseek-harness`, `dsh`.
 ## Prerequisites
 
 1. Install and open **Jiey Browser** so its MCP server is up (default `http://127.0.0.1:9100`).
+   - Download page: https://www.gongxingglobal.com/browser  
+   - macOS Intel (x64) DMG: https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg  
+     (Apple Silicon / Windows / Linux installers: coming soon on the same page.)
 2. Discovery order: plugin `serverUrl` → `BROWSEROS_URL` / `JIEY_URL` → `~/.browseros/server.json` → `http://127.0.0.1:9100`.
 3. Health check: `GET /system/health` must return `{ status: "ok" }`.
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+- Document Jiey Browser download page and macOS Intel (x64) DMG CDN link.
+
 ## 0.1.3
 
 - Publish notes for npm install via `dsh plugin add dsh-jiey-browser`.

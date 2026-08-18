@@ -7,11 +7,10 @@ DeepSeek Harness 插件：通过 MCP 把 **jiey 浏览器** 交给 Agent 当「�
 ## 安装
 
 ```sh
-# npm（预构建，推荐）
+# npm 公开包
 dsh plugin --profile web add dsh-jiey-browser
-
-# GitHub 源码
-dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
+# 或
+npm install dsh-jiey-browser
 ```
 
 源码：https://github.com/jiewaigongxing/dsh-jiey-browser  
@@ -20,6 +19,9 @@ dsh plugin --profile web add github:jiewaigongxing/dsh-jiey-browser
 ## 前置
 
 1. 安装并打开 jiey 浏览器（MCP 默认 `http://127.0.0.1:9100`）
+   - 下载页：https://www.gongxingglobal.com/browser  
+   - macOS Intel（x64）DMG：https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg  
+     （Apple Silicon / Windows / Linux 安装包：同页陆续开放）
 2. 发现顺序：`serverUrl` → `BROWSEROS_URL`/`JIEY_URL` → `~/.browseros/server.json` → `9100`
 3. 未检测到 jiey 时，工具会返回下载引导，**不会**回退到 Playwright
 
