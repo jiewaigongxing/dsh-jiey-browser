@@ -18,6 +18,8 @@ npm install dsh-jiey-browser
 
 ## 前置
 
+完整步骤见文档：[配合 DeepSeek Harness 使用](https://docs.browser.gongxingglobal.com/features/use-with-deepseek-harness)
+
 1. 安装并打开 jiey 浏览器（MCP 默认 `http://127.0.0.1:9100`）
    - 下载页：https://www.gongxingglobal.com/browser  
    - macOS Intel（x64）DMG：https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg  

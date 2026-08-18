@@ -38,6 +38,8 @@ Topics: `dsh-plugin`, `deepseek-harness`, `dsh`.
 
 ## Prerequisites
 
+Full guide: [Use with DeepSeek Harness](https://docs.browser.gongxingglobal.com/features/use-with-deepseek-harness)
+
 1. Install and open **Jiey Browser** so its MCP server is up (default `http://127.0.0.1:9100`).
    - Download page: https://www.gongxingglobal.com/browser  
    - macOS Intel (x64) DMG: https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg  
