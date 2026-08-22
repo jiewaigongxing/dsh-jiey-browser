@@ -41,13 +41,12 @@ Topics: `dsh-plugin`, `deepseek-harness`, `dsh`.
 Full guide: [Use with DeepSeek Harness](https://docs.browser.gongxingglobal.com/features/use-with-deepseek-harness)
 
 1. Install and open **Jiey Browser** so its MCP server is up (default `http://127.0.0.1:9100`).
-   - Download page: https://www.gongxingglobal.com/browser  
-   - macOS Intel (x64) DMG: https://cdn.gongxingglobal.com/releases/browseros/0.49.6.4/Jiey_v0.49.6.4_x64.dmg  
-     (Apple Silicon / Windows / Linux installers: coming soon on the same page.)
+   - **Download only from the official site:** https://www.gongxingglobal.com/browser  
+     (macOS / Windows / Linux installers are listed there — this repo does not ship CDN links.)
 2. Discovery order: plugin `serverUrl` → `BROWSEROS_URL` / `JIEY_URL` → `~/.browseros/server.json` → `http://127.0.0.1:9100`.
 3. Health check: `GET /system/health` must return `{ status: "ok" }`.
 
-If Jiey is offline, tools fail with a download URL (default Gongxing site) instead of silently falling back to another browser.
+If Jiey is offline, tools fail with a link to the official download page (default `https://www.gongxingglobal.com/browser`) instead of silently falling back to another browser.
 
 ## Configure
 
